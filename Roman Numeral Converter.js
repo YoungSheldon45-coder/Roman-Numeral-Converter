@@ -14,10 +14,10 @@ convertBtn.addEventListener("click", ()=>{
       textOutput.innerText = "Please enter a number greater than or equal to 1";
       return;
   }
-  else if(textInput.value >= 4000){
+  /*else if(textInput.value >= 4000){
       textOutput.innerText = "Please enter a number less than or equal to 3999";
       return;
-  }
+  }*/
 
   textOutput.innerText = toRoman(textInput.value);
 });
